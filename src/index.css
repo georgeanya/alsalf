@@ -17,7 +17,8 @@
 
 body {
   margin: 0;
-  background-color: #1d1d1d;
+  padding: 0px 130px;
+  background-color:  #111111;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -63,7 +64,7 @@ code {
   line-height: 65px;
 }
 .sub_head_text {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 13px 45px;
@@ -72,7 +73,7 @@ code {
   color: white;
   border-radius: 50px;
   font-family: "Proxima Nova";
-  margin-bottom: 25px;
+  margin-top: 110px;
 }
 .sub_body_text {
   font-family: "Proxima Nova";
@@ -81,6 +82,7 @@ code {
   font-size: 22px;
   line-height: 38px;
   color: white;
+  margin-top: 35px;
 }
 .text {
   margin-top: 20px;
@@ -102,7 +104,9 @@ code {
   line-height: 17px;
   color: white;
 }
-
+.founders_{
+  margin-top: 35px;
+}
 @media screen and (max-width: 576px) {
   .home_head {
     font-family: "Proxima Nova";
@@ -119,6 +123,7 @@ code {
   }
   .founders_ {
     flex-direction: column;
+    margin-top: 35px;
   }
   .sub_head_text {
     line-height: 20px;

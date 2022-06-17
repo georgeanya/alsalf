@@ -10,10 +10,11 @@ const Home = () => {
           Welcome to Abiriba Let’s Save A Life Foundation (A.L.S.A.L.F)
         </h1>
         <img className="home_img" src={image1} width="100%" alt="" />
-              
       </div>
-      <div id="about" className="py-lg-4">
-        <h2 className="sub_head_text">About Us</h2>
+      <div id="about">
+        <h2 className="sub_head_text">
+          About Us
+        </h2>
         <p className="sub_body_text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
           distinctio labore necessitatibus accusamus magnam quidem, delectus,
@@ -27,8 +28,10 @@ const Home = () => {
           praesentium quae sequi repudiandae at necessitatibus!
         </p>
       </div>
-      <div className="py-lg-4">
-        <h2 className="sub_head_text">Our Aim</h2>
+      <div>
+        <h2 className="sub_head_text" width="206px">
+          Our Aim
+        </h2>
         <p className="sub_body_text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
           distinctio labore necessitatibus accusamus magnam quidem, delectus,
@@ -42,8 +45,10 @@ const Home = () => {
           praesentium quae sequi repudiandae at necessitatibus!
         </p>
       </div>
-      <div className="py-lg-4">
-        <h2 className="sub_head_text">Meet the fonders</h2>
+      <div>
+        <div width='357px'>
+          <h2 className="sub_head_text">Meet the fonders</h2>
+        </div>
         <div className="d-flex justify-content-between founders_">
           <div className="">
             <img className="mx-auto d-block" src={avi1} alt="" />
