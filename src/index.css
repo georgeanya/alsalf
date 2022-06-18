@@ -243,6 +243,10 @@ code {
   body{
     padding: 0px 20px;
   }
+  .footer_text{
+    text-align: center;
+    padding: 2rem;
+  }
   .image-div{
     margin: 35px 0px;
   }
