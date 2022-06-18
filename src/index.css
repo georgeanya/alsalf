@@ -122,6 +122,10 @@ code {
     top: 115px;
     color: white;
   }
+  .footer-info{
+    flex-direction: column;
+    
+  }
   .founders_ {
     flex-direction: column;
     margin-top: 35px;

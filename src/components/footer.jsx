@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <hr className="color" />
-      <div className=" py-3 d-flex justify-content-between align-items-center">
+      <div className=" py-3 d-flex justify-content-between  footer-info align-items-center">
         <p className="footer_text">
           Abiriba Let’s Save A Life Foundation © 2021 All Rights Reserved
         </p>
