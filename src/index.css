@@ -95,6 +95,7 @@ code {
 }
 .color {
   color: white;
+  margin-top: 221px;
 }
 .footer_text {
   font-family: "Proxima Nova";
@@ -126,8 +127,10 @@ code {
     margin-top: 35px;
   }
   .sub_head_text {
+    margin-top: 110px;
     line-height: 20px;
     font-size: 20px;
+    top: 29px;
   }
   .sub_body_text {
     font-size: 18px;
@@ -141,6 +144,12 @@ code {
     top: 315px;
   }
   #about{
-    margin-top: 568px;
+    margin-top: 528px;
+  }
+  body{
+    padding: 0px 20px;
+  }
+  .image-div{
+    margin: 35px 0px;
   }
 }

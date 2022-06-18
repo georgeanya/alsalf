@@ -5,7 +5,7 @@ import avi1 from "../assets/avi1.png";
 const Home = () => {
   return (
     <div>
-      <div className="py-lg-4" id="home">
+      <div className="" id="home">
         <h1 className="home_head">
           Welcome to Abiriba Let’s Save A Life Foundation (A.L.S.A.L.F)
         </h1>
@@ -50,19 +50,19 @@ const Home = () => {
           <h2 className="sub_head_text">Meet the fonders</h2>
         </div>
         <div className="d-flex justify-content-between founders_">
-          <div className="">
+          <div className="image-div">
             <img className="mx-auto d-block" src={avi1} alt="" />
             <p className="text-center text">Mr Anya Onuegbu</p>
           </div>
-          <div className="">
+          <div className="image-div">
             <img className="mx-auto d-block" src={avi1} alt="" />
             <p className="text-center text">Mr Anya Joseph</p>
           </div>
-          <div className="">
+          <div className="image-div">
             <img className="mx-auto d-block" src={avi1} alt="" />
             <p className="text-center text">Mrs Anya Promise</p>
           </div>
-          <div className="">
+          <div className="image-div">
             <img className="mx-auto d-block" src={avi1} alt="" />
             <p className="text-center text">Mr Anya George</p>
           </div>

@@ -12,9 +12,9 @@ const Footer = () => {
           Abiriba Let’s Save A Life Foundation © 2021 All Rights Reserved
         </p>
         <div>
-          <img src={fbook} alt="" />
-          <img src={insta} alt="" />
-          <img src={twitter} alt="" />
+          <img className="p-2" src={fbook} alt="" />
+          <img className="p-2" src={insta} alt="" />
+          <img className="p-2" src={twitter} alt="" />
         </div>
       </div>
     </div>
