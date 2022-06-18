@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
-const Navbar1 = () => {
+const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="huron__navbar">
-      <div className="huron__navbar-links">
-        <div className="huron__navbar-links_logo">
+    <div className="navbar">
+      <div className="navbar-links">
+        <div className="navbar-links_logo">
           <p>ALSALF</p>
         </div>
-        <div className="huron__navbar-links_container">
+        <div className="navbar-links_container">
           <p>
             <a href="#home">Who we are</a>
           </p>
@@ -22,7 +22,7 @@ const Navbar1 = () => {
           </p>
         </div>
       </div>
-      <div className="huron__navbar-menu">
+      <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -37,8 +37,8 @@ const Navbar1 = () => {
           />
         )}
         {toggleMenu && (
-          <div className="huron__navbar-menu_container scale-up-center">
-            <div className="huron__navbar-menu_container-links">
+          <div className="navbar-menu_container scale-up-center">
+            <div className="navbar-menu_container-links">
               <p>
                 <a href="#home">Who we are</a>
               </p>
@@ -56,4 +56,4 @@ const Navbar1 = () => {
   );
 };
 
-export default Navbar1;
+export default Navbar;

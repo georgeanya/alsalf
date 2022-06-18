@@ -31,26 +31,6 @@ code {
     monospace;
 }
 
-.navbar_link {
-  display: flex;
-  justify-content: right;
-}
-.navbar_link_item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: white;
-  font-family: "Proxima Nova";
-  margin: 0px 15px;
-}
-.nav_bar {
-  padding: 20px 0px;
-}
-.navbar_brand {
-  font-size: 22px;
-  color: white;
-  font-family: "Proxima Nova";
-}
 .home_head {
   position: absolute;
   width: 540px;
@@ -108,6 +88,116 @@ code {
 .founders_{
   margin-top: 35px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0px;
+}
+
+.navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links_logo p{
+  
+  font-size: 22px;
+  color: white;
+  font-family: "Proxima Nova";
+}
+
+
+
+.navbar-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-links_container p a,
+.navbar-menu_container p a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  font-family: "Proxima Nova";
+  margin: 0px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.navbar-menu {
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 310px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+  background-color: #1d1d1d;
+}
+
+@media screen and (max-width: 1180px) {
+  .navbar-links_container {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 2rem 0px;
+  }
+
+  .navbar-menu_container {
+    min-width: 210px;
+  }
+}
+@media screen and (max-width: 1100px){
+  body{
+    padding: 0px 75px;
+  }
+  .home_head{
+    top: 200px;
+    left: 170px;
+  }
+}
+@media screen and (max-width: 800px){
+  body{
+    padding: 0px 40px;
+  }
+  .home_head{
+    top: 200px;
+    left: 100px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+.founders_{
+  flex-direction: column;
+}
+}
 @media screen and (max-width: 576px) {
   .home_head {
     font-family: "Proxima Nova";
@@ -155,90 +245,5 @@ code {
   }
   .image-div{
     margin: 35px 0px;
-  }
-}
-.huron__navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 0px;
-}
-
-.huron__navbar-links {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.huron__navbar-links_logo p{
-  font-size: 22px;
-  color: white;
-  font-family: "Proxima Nova";
-}
-
-
-
-.huron__navbar-links_container {
-  display: flex;
-  flex-direction: row;
-}
-
-.huron__navbar-links_container p a,
-.huron__navbar-menu_container p a{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: white;
-  font-family: "Proxima Nova";
-  margin: 0px 15px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-
-
-.huron__navbar-menu {
-  display: none;
-  position: relative;
-}
-
-.huron__navbar-menu svg {
-  cursor: pointer;
-}
-
-.huron__navbar-menu_container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
-  text-align: end;
-  position: absolute;
-  top: 40px;
-  right: 0;
-  margin-top: 1rem;
-  min-width: 310px;
-  border-radius: 5px;
-  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
-  background-color: #1d1d1d;
-}
-
-@media screen and (max-width: 1180px) {
-  .huron__navbar-links_container {
-    display: none;
-  }
-
-  .huron__navbar-menu {
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .huron__navbar {
-    padding: 2rem 0px;
-  }
-
-  .huron__navbar-menu_container {
-    min-width: 210px;
   }
 }
