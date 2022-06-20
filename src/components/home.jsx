@@ -46,7 +46,7 @@ const Home = () => {
         </p>
       </div>
       <div>
-        <div width='357px'>
+        <div>
           <h2 className="sub_head_text">Meet the fonders</h2>
         </div>
         <div className="d-flex justify-content-between founders_">

@@ -75,7 +75,7 @@ code {
 }
 .color {
   color: white;
-  margin-top: 221px;
+  margin-top: 130px;
 }
 .footer_text {
   font-family: "Proxima Nova";
@@ -142,18 +142,17 @@ code {
 
 .navbar-menu_container {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
   text-align: end;
   position: absolute;
   top: 40px;
   right: 0;
   margin-top: 1rem;
-  min-width: 310px;
+  width: 100%;
   border-radius: 5px;
-  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
   background-color: #1d1d1d;
+  opacity: 1;
 }
 
 @media screen and (max-width: 1180px) {
@@ -249,5 +248,9 @@ code {
   }
   .image-div{
     margin: 35px 0px;
+  }
+  .color {
+    color: white;
+    margin-top: 70px;
   }
 }
