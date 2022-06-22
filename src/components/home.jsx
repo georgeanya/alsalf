@@ -14,16 +14,11 @@ const Home = () => {
       <div id="about">
         <h2 className="sub_head_text">About Us</h2>
         <p className="sub_body_text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
-          distinctio labore necessitatibus accusamus magnam quidem, delectus,
-          fugit ut natus iusto nemo sapiente animi a hic minima et sed? Quis,
-          reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Architecto quaerat facilis impedit velit assumenda accusamus natus
-          obcaecati molestiae, consequuntur autem hic vero modi eligendi? Nihil
-          repellendus aspernatur assumenda odit sapiente! Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Dolorum rerum, ipsum illum aut at
-          odio soluta eius obcaecati vero in? Impedit illum sint aliquam
-          praesentium quae sequi repudiandae at necessitatibus!
+          We are a group of Abiriba indigenes driven by compassion to provide
+          the community with good healthcare. We believe a healthy community is
+          a productive community and we are willing to go the extra mile to
+          ensure the average abiriba indigene living in Abiriba has access to
+          quality health care.
         </p>
       </div>
       <div>
@@ -31,16 +26,10 @@ const Home = () => {
           Our Aim
         </h2>
         <p className="sub_body_text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
-          distinctio labore necessitatibus accusamus magnam quidem, delectus,
-          fugit ut natus iusto nemo sapiente animi a hic minima et sed? Quis,
-          reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Architecto quaerat facilis impedit velit assumenda accusamus natus
-          obcaecati molestiae, consequuntur autem hic vero modi eligendi? Nihil
-          repellendus aspernatur assumenda odit sapiente! Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Dolorum rerum, ipsum illum aut at
-          odio soluta eius obcaecati vero in? Impedit illum sint aliquam
-          praesentium quae sequi repudiandae at necessitatibus!
+          We are targeted at helping members of the community by providing early
+          detection of ailments, providing treatments to prevent these ailments
+          from getting out of control and also providing aftercare support to
+          these people.
         </p>
       </div>
       <div>
