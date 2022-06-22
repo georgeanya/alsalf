@@ -12,9 +12,7 @@ const Home = () => {
         <img className="home_img" src={image1} width="100%" alt="" />
       </div>
       <div id="about">
-        <h2 className="sub_head_text">
-          About Us
-        </h2>
+        <h2 className="sub_head_text">About Us</h2>
         <p className="sub_body_text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
           distinctio labore necessitatibus accusamus magnam quidem, delectus,
