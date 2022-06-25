@@ -10,7 +10,8 @@ const Home = () => {
           Welcome to Abiriba Let’s Save A Life Foundation (A.L.S.A.L.F)
         </h1>
         <img className="home_img" src={image1} width="100%" alt="" />
-      </div>
+          </div>
+          
       <div id="about">
         <h2 className="sub_head_text">About Us</h2>
         <p className="sub_body_text">
@@ -21,7 +22,7 @@ const Home = () => {
           quality health care.
         </p>
       </div>
-      <div>
+      <div id="aim">
         <h2 className="sub_head_text" width="206px">
           Our Aim
         </h2>
@@ -32,7 +33,7 @@ const Home = () => {
           these people.
         </p>
       </div>
-      <div>
+      <div id="founders">
         <div>
           <h2 className="sub_head_text">Meet the fonders</h2>
         </div>

@@ -6,6 +6,7 @@ import Home from './components/home';
 import Navbar from './components/navbar2';
 
 function App() {
+  
   return (
     <div className="App">
       <Navbar/>

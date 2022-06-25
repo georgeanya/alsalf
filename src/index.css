@@ -138,7 +138,7 @@ code {
 
 .navbar-menu_container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   text-align: end;
   position: absolute;
