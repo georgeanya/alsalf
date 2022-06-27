@@ -18,7 +18,7 @@ const Home = () => {
           We are a group of Abiriba indigenes driven by compassion to provide
           the community with good healthcare support. We believe a healthy community is
           a productive community and we are willing to go the extra mile to
-          ensure the average Abiriba indigene living in Abiriba has access immediate assitance to
+          ensure the average Abiriba indigene living in Abiriba has access to immediate assitance to
           quality health care.
         </p>
       </div>
