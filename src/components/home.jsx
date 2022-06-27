@@ -16,9 +16,9 @@ const Home = () => {
         <h2 className="sub_head_text">About Us</h2>
         <p className="sub_body_text">
           We are a group of Abiriba indigenes driven by compassion to provide
-          the community with good healthcare. We believe a healthy community is
+          the community with good healthcare support. We believe a healthy community is
           a productive community and we are willing to go the extra mile to
-          ensure the average abiriba indigene living in Abiriba has access to
+          ensure the average Abiriba indigene living in Abiriba has access immediate assitance to
           quality health care.
         </p>
       </div>
@@ -28,7 +28,7 @@ const Home = () => {
         </h2>
         <p className="sub_body_text">
           We are targeted at helping members of the community by providing early
-          detection of ailments, providing treatments to prevent these ailments
+          detection of ailments, providing advise and support to prevent these ailments
           from getting out of control and also providing aftercare support to
           these people.
         </p>
