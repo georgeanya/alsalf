@@ -1,13 +1,13 @@
 import React from "react";
 import image1 from "../assets/image1.png";
-import avi1 from "../assets/avi1.png";
+// import avi1 from "../assets/avi1.png";
 
 const Home = () => {
   return (
     <div>
       <div className="" id="home">
         <h1 className="home_head">
-          Welcome to Abiriba Let’s Save A Life Foundation (A.L.S.A.L.F)
+          Welcome to <br/> Abiriba Let’s Save A Life Foundation (A.L.S.A.L.F)
         </h1>
         <img className="home_img" src={image1} width="100%" alt="" />
           </div>
@@ -33,7 +33,7 @@ const Home = () => {
           these people.
         </p>
       </div>
-      <div id="founders">
+      {/* <div id="founders">
         <div>
           <h2 className="sub_head_text">Meet the fonders</h2>
         </div>
@@ -55,7 +55,7 @@ const Home = () => {
             <p className="text-center text">Mr Anya George</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
