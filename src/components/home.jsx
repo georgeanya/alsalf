@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../assets/image1.png";
+import image1 from "../assets/image1.jpg";
 // import avi1 from "../assets/avi1.png";
 
 const Home = () => {
