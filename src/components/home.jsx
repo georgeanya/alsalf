@@ -1,6 +1,6 @@
 import React from "react";
-// import image1 from "../assets/image1.jpg";
-import avi1 from "../assets/avi1.png";
+import image1 from "../assets/image1.png";
+// import avi1 from "../assets/avi1.png";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <h1 className="home_head">
           Welcome to <br /> Abiriba Let’s Save A Life Foundation (A.L.S.A.L.F)
         </h1>
-        <img className="home_img" src={avi1} width="100%" alt="" />
+        <img className="home_img" src={image1} width="100%" alt="" />
       </div>
 
       <div id="about">
